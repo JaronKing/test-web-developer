@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorem Ipsum</title>
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/handlebars-v4.0.5.js"></script>
+
+    <script id="comment-template-1" type="text/x-handlebars-template">
+        <div class="comment comment0">
+            <p>"<i>{{ comment }}</i>"<br/>
+                - <b>{{ name }},</b> {{ formatDate timestamp }}</p>
+        </div>
+    </script>
+    <script id="comment-template-2" type="text/x-handlebars-template">
+        <div class="comment comment1">
+            <p>"<i>{{ comment }}</i>"<br/>
+            - <b>{{ name }},</b> {{ formatDate timestamp }}</p>
+        </div>
+    </script>
+    <script type="text/javascript" src="app.js"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="topBar"></div>
+        <div class="content">
+            <img class="logo" src="images/logo.png" alt="Logo">
+            <div class="btn-group">
+                <a class="btn" href="#">Home</a>
+                <a class="btn" href="#">Uno</a>
+                <a class="btn" href="#">Dos</a>
+                <a class="btn" href="#">Tres</a>
+            </div>
+        </div>
+    </div>
+    <div id="body-content">
+        <div class="content">
+            <!--Slider-->
+            <div id="slider" class="imageBox">
+                <img id="slide" src="images/slideshow/1.jpg" alt="slideshow image" width="100%">
+            </div>
+            <!--Below Slider-->
+            <div id="below-slider">
+                <div class="sibling">
+                    <div class="title"><h2>This is Some Content</h2></div>
+                    <div class="sibling-content">
+                        <div class="imageBox">
+                            <img src="images/column-left.jpg" alt="Left Column Image" width="100%"/>
+                        </div>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.  Seperated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                    </div>
+                </div>
+                <div class="sibling">
+                    <div class="title"><h2>This is Some Content</h2></div>
+                    <div class="sibling-content">
+                        <div class="imageBox">
+                            <img src="images/column-center.jpg" alt="Center Column Image" width="100%"/>
+                        </div>
+                        <ul>
+                            <li>Sed lacinia enim et nisl viverra.</li>
+                            <li>Nullam elementum quam in luctus.</li>
+                            <li>Integer ac et lacus henderit pretium.</li>
+                            <li>Donex placerat dui et blandit.</li>
+                            <li>Nullam elementum quam in luctus.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sibling comments">
+                    <div class="title"><h2>What Others are Saying</h2></div>
+                    <div class="sibling-content">
+                        <div class="commentsGlow"></div>
+                        <div class="commentsBox"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-left">
+            <p>Copyright, All Rights Reserved.</p>
+        </div>
+        <div class="footer-right">
+            <p>Home | Uno | Dos | Tres</p>
+        </div>
+    </div>
+</body>
+
+</html>

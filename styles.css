@@ -1,0 +1,179 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .comments {
+        display: none;
+    }
+    .sibling {
+        width: 45%;
+        float: left;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .sibling {
+    width: 29%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+    .content {
+    padding: 0px 40px 0px 80px;
+}
+}
+
+@media screen and (max-width: 1024px) and (min-width: 470px) {
+    .logo {
+        max-height: 100px;
+    }
+    .content {
+        padding: 0px 20px 0px 20px;
+    }
+}
+
+@media screen and (max-width: 469px) {
+    .logo {
+        width: 30%;
+    }
+    .content {
+        padding: 0px 20px 0px 20px;
+    }
+}
+
+.footer {
+    background-color: #cccccc;
+    height: 30px;
+    padding: 20px;
+}
+
+.footer-left {
+    float: left;
+}
+
+.footer-right {
+    float: right;
+}
+
+.comment {
+    padding: 2px 10px 2px 10px;
+}
+
+.comment0 {
+    background-color: #d8d8d8;
+}
+
+.comment1 {
+    background-color: #c2d2df;
+}
+
+.commentsGlow {
+    box-shadow: inset 0 0 5px 0 black;
+    height: 548px;
+    width: 90%;
+    position: absolute;
+    z-index: 1000;
+}
+
+.commentsBox {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+ul {
+    list-style-image: url('images/list.png');
+}
+
+.imageBox {
+    background-color: #f5ffff;
+    padding: 8px;
+    margin: auto;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#body-content {
+    background-color: #e2e2e2;
+    width: 100%;
+    height: auto;
+    display:inline-block;
+}
+
+.btn-group {
+    float:right;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.btn {
+    text-decoration: none;
+    border-radius: 3px;
+    color: white;
+    background: -webkit-linear-gradient(#9adaf6, #22b3f2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#9adaf6, #22b3f2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#9adaf6, #22b3f2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#9adaf6, #22b3f2); /* Standard syntax */
+    border: 1px solid #7c8584;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btn-group>.btn {
+    position: relative;
+    float: left;
+}
+
+.btn-group>.btn:first-child:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.btn-group>.btn:last-child:not(:first-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.btn-group>.btn:not(:first-child):not(:last-child) {
+    border-radius: 0;
+}
+
+#header {
+    background-color: #cccccc;
+    padding: 0;
+    margin: 0;
+}
+
+.topBar {
+    background-color: #7f7f7f;
+    height: 4px;
+}
+
+.content{
+    padding-top: 30px;
+}
+
+#below-slider {
+    margin-top: 40px;
+}
